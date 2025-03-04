@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Categories from './components/Categories';
+import { baseTags } from './infoTags/baseTags';
+import { linkTags } from './infoTags/linkTags';
+import { formatTags } from './infoTags/formatTags';
+import { semanticTags } from './infoTags/semanticTags';
 
 function App() {
+  // useEffect(() => {
+  //   updateGrid();
+  // }, []); 
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className='app__column'>
+        <Categories name='Базовый HTML-код' tagProps={baseTags}/>
+        <Categories name='Ссылки' tagProps={linkTags}/>
+        <Categories name='Форматирование' tagProps={formatTags}/>
+      </div>
+      <div className='app__column'>
+        <Categories name='Семантика' tagProps={semanticTags}/>
+        <Categories name='Базовый HTML-код' tagProps={baseTags}/>
+        <Categories name='Базовый HTML-код' tagProps={baseTags}/>
+      </div>
     </div>
   );
 }

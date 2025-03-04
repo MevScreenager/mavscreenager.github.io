@@ -1,0 +1,37 @@
+.categories {
+
+    border: var(--categories-border) solid aliceblue;
+    border-radius: var(--border-radius);
+    padding: var(--categories-padding);
+    max-width: var(--categories-max-width);
+    
+}
+
+.categories__name {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    padding: .8rem;
+    border-radius: var(--border-radius);
+
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(45px);
+}
+
+.categories__tags {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--tag-max-width), 1fr)); /* Колонки с минимальной шириной 200px */
+    gap: var(--gap-categories-tags);
+}
+
+.categories__tags__column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-categories-tags);
+}
+
+.tag--modification- {
+    margin-bottom: .8rem;
+    break-inside: avoid;
+}

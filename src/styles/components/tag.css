@@ -1,0 +1,36 @@
+.tag {
+    border-radius: var(--border-radius);
+    background-color: var(--tag-back-color);
+    max-width: var(--tag-max-width);
+    height: min-content;
+
+    padding: var(--tag-padding);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.tag__name {
+    color: var(--tag-name-color);
+}
+
+
+.tag__example {
+    color: var(--tag-example-color);
+}
+
+
+.tag--area {
+    border-radius: var(--border-radius);
+    background-color: var(--tag-area-back-color);
+}
+
+.tag--area p {
+    padding: .6rem;
+}
+
+.tag--area summary {
+    padding-inline: .6rem;
+    padding-block: .4rem;
+    letter-spacing: .2rem;
+}

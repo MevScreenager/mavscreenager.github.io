@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border-color: var(--tag-example-color);
+}
+
+img {
+    --img-margin: .1875rem;
+    width: calc(var(--tag-max-width) - var(--tag-padding) * 2 - var(--img-margin) * 2);
+    border-radius: var(--border-radius);
+    margin: var(--img-margin);
+}
+
+a + p {
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    color: var(--a-color-link);
+}
+a:visited {
+    color: var(--a-color-visited);
+}
+a:hover {
+    color: var(--a-color-hover);
+}
+
+nav {
+    cursor: pointer;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+article h1 {
+    font-size: 1.625rem;
+}

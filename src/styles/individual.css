@@ -1,0 +1,50 @@
+pre[id='tag-del-pre'] {
+    color: white;
+}
+
+pre[id='tag-del-pre'] del {
+    background: #631c03;
+}
+pre[id='tag-del-pre'] del::before {
+    content: " - ";
+    color: #da3633;
+}
+
+pre[id='tag-del-pre'] ins {
+    background: #0e4429;
+}
+pre[id='tag-del-pre'] ins::before {
+    content: ' + ';
+    color: #006d32;
+}
+
+pre[id='tag-del-pre'] del, 
+pre[id='tag-del-pre'] ins {
+    /* display: inline-flex;
+    align-items: center; */
+    position: relative;
+    text-decoration: none;
+}
+pre[id='tag-del-pre'] del::before, 
+pre[id='tag-del-pre'] ins::before {
+    position: absolute;
+    left: -25px;
+}
+
+
+kbd {
+    background-color: #29282851;
+    border: 1px solid #292828;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px 4px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+mark {
+    color: white;
+    background-color: darkorchid;
+    border-radius: 3px;
+    padding: .125rem;
+}

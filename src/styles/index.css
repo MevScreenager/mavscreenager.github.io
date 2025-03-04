@@ -1,0 +1,26 @@
+@import url('./components/tag.css');
+@import url('./components/app.css');
+@import url('./components/categories.css');
+@import url('defult.css');
+@import url('individual.css');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: var(--back-color);
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+:root {
+    --border-radius: 1rem;
+    --back-color: black;
+
+    --tag-back-color: rgb(32,35,40);
+    --tag-area-back-color: rgb(45,48,55);
+    --tag-name-color: rgb(42,143,247);
+    --tag-example-color: rgb(109,251,251);
+
+    --a-color-link: cornflowerblue;
+    --a-color-hover: rgb(171, 100, 237);
+    --a-color-visited: rgb(228, 148, 29);
+}

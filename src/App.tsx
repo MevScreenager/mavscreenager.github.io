@@ -26,6 +26,13 @@ function App() {
         <Categories name='Картинки' tagProps={imageTags}/>
         <Categories name='Формы и ввод' tagProps={formTags}/>
       </div>
+      <div className='app__nav'>
+        <ol>
+          <li>
+            <a href='#baseTags'>Базовый HTML</a>
+          </li>
+        </ol>
+      </div>
     </div>
   );
 }

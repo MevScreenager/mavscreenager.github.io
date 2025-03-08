@@ -20,6 +20,10 @@ const linkTagsColumn2: ITag[] = [
         about: ['map это контейнед для area', 'area накладывает область-ссылку на изображение'],
         example: [Area, Map]
     },
+    {
+        name: 'base',
+        about: 'Основной адресс для всех относительных путей'
+    }
 ]
 
 export const linkTags: ITag[][] = [linkTagsColumn1, linkTagsColumn2]

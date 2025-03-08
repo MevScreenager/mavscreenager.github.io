@@ -28,6 +28,7 @@
 .categories__tags__column {
     display: flex;
     flex-direction: column;
+    /*justify-content: center;*/
     gap: var(--gap-categories-tags);
 }
 

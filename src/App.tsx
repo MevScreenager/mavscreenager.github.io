@@ -4,6 +4,8 @@ import { baseTags } from './infoTags/baseTags';
 import { linkTags } from './infoTags/linkTags';
 import { formatTags } from './infoTags/formatTags';
 import { semanticTags } from './infoTags/semanticTags';
+import { imageTags } from './infoTags/imageTags';
+import { formTags } from './infoTags/formTags';
 
 function App() {
   // useEffect(() => {
@@ -21,8 +23,8 @@ function App() {
       </div>
       <div className='app__column'>
         <Categories name='Семантика' tagProps={semanticTags}/>
-        <Categories name='Базовый HTML-код' tagProps={baseTags}/>
-        <Categories name='Базовый HTML-код' tagProps={baseTags}/>
+        <Categories name='Картинки' tagProps={imageTags}/>
+        <Categories name='Формы и ввод' tagProps={formTags}/>
       </div>
     </div>
   );

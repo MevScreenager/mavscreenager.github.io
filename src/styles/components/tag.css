@@ -14,6 +14,9 @@
     color: var(--tag-name-color);
 }
 
+.tag__about {
+    color: var(--tag-about-color);
+}
 
 .tag__example {
     color: var(--tag-example-color);

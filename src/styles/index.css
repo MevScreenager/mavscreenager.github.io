@@ -6,21 +6,27 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
-    background-color: var(--back-color);
-    color: aliceblue;
+    background-color: var(--background-color);
+    color: var(--color);
     box-sizing: border-box;
 }
 
 :root {
     --border-radius: 1rem;
-    --back-color: black;
+    --background-color: black;
+    --color: aliceblue;
 
     --tag-back-color: rgb(32,35,40);
     --tag-area-back-color: rgb(45,48,55);
     --tag-name-color: rgb(42,143,247);
+    --tag-about-color: aliceblue;
     --tag-example-color: rgb(109,251,251);
+
+    --code-tag-color: #00C12B;
 
     --a-color-link: cornflowerblue;
     --a-color-hover: rgb(171, 100, 237);
     --a-color-visited: rgb(228, 148, 29);
+
+    --img-caption-color: #FF5240;
 }

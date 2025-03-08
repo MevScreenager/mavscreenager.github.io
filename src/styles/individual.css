@@ -1,3 +1,5 @@
+
+/* del ins добавленный и удаленный контент */
 pre[id='tag-del-pre'] {
     color: white;
 }
@@ -31,7 +33,7 @@ pre[id='tag-del-pre'] ins::before {
     left: -25px;
 }
 
-
+/* клавиши */
 kbd {
     background-color: #29282851;
     border: 1px solid #292828;
@@ -42,9 +44,61 @@ kbd {
     font-size: 0.9em;
 }
 
+/* выделение текста */
 mark {
     color: white;
     background-color: darkorchid;
     border-radius: 3px;
     padding: .125rem;
+}
+
+/* svg */
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots-icon {
+    height: 100px; 
+    width: auto;
+    animation: animation 3s infinite alternate;
+}
+
+@keyframes animation {
+    0% {
+        fill: #FF8630;
+    }
+    50% {
+        fill: #2E9AFF;
+    }
+    100% {
+        fill: #663613;
+    }
+}
+
+/* текст под картинками */
+.text-button-img {
+    color: var(--img-caption-color);
+    font-weight: bold;
+}
+
+/* выравнивание текста под картинками */
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* класс для внутреннего отступа div */
+.padding {
+    padding: .6rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+input {
+    border-radius: .6rem;
+    height: 1.75rem;
 }

@@ -94,6 +94,6 @@ export const Abbr = <div>
 
 export const Samp = <div>
     <p>
-        <samp>{getMilliseconds()}</samp>
+        <samp>&gt;&gt;&gt; {getMilliseconds()}</samp>
     </p>
 </div>

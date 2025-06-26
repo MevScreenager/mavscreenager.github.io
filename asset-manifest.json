@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mavscreenager.github.io/tree/react/static/css/main.060cfb36.css",
+    "main.js": "/mavscreenager.github.io/tree/react/static/js/main.80c98d1a.js",
+    "static/media/2.jpg": "/mavscreenager.github.io/tree/react/static/media/2.9da9dff15aa2b4787245.jpg",
+    "static/media/6.jpg": "/mavscreenager.github.io/tree/react/static/media/6.76356af0381c5faa5676.jpg",
+    "static/media/8.jpg": "/mavscreenager.github.io/tree/react/static/media/8.5ae41082e6274acb0c66.jpg",
+    "static/media/3.jpg": "/mavscreenager.github.io/tree/react/static/media/3.eb827ebaa7598ee33e65.jpg",
+    "static/media/7.jpg": "/mavscreenager.github.io/tree/react/static/media/7.6cad1a423ba62d1a1ad5.jpg",
+    "static/media/9.png": "/mavscreenager.github.io/tree/react/static/media/9.6d58fb186f6e91e667b1.png",
+    "index.html": "/mavscreenager.github.io/tree/react/index.html",
+    "main.060cfb36.css.map": "/mavscreenager.github.io/tree/react/static/css/main.060cfb36.css.map",
+    "main.80c98d1a.js.map": "/mavscreenager.github.io/tree/react/static/js/main.80c98d1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.060cfb36.css",
+    "static/js/main.80c98d1a.js"
+  ]
+}
